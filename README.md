@@ -25,4 +25,5 @@ Pricer d'options européennes (Call / Put) basé sur la résolution numérique d
    ```bash
    git clone [https://github.com/ABAHAMOU/Equation-de-Black-et-Scholes-EDP.git](https://github.com/ABAHAMOU/Equation-de-Black-et-Scholes-EDP.git)
    cd Equation-de-Black-et-Scholes-EDP
-   
+   g++ -O3 main.cpp -lSDL2 -o black_scholes_solver
+   ./black_scholes_solver
